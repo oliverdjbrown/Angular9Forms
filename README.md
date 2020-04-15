@@ -39,3 +39,16 @@ Cuando tengamos el formulario de IU listo en Angular, debemos enviar los datos a
 4) declaramos la propiedad userModel y le pasamos los argumentos.
 5) para poder vincular las propiedades del modelo a la directiva ngModel se utiliza [ngModel]="" pero esto solo es de una via y no podra actualizar la vista.
 6) para poder hacer uso de la directiva ngModel de dos vias utilizamos [(ngModel)]="".
+
+## Tracking state and validity
+Angular rastrea el estado del control de formulario y aplica la clase necesaria que nos ayuda a saber qué validación se ha aplicado. La validación y la aplicación de la retroalimentación visual adecuada para los controles son muy importantes para cualquier aplicación.
+
+-El control ha sido visitado (ng-touched / ng-untouched)
+-El valor del control ha cambiado (ng-dirty / ng-pristine)
+-El valor del control es valido (ng-valid / ng-invalid)
+
+1) agregamos un identificador a nuestro control #nombreIdentificador
+2) debajo de nuestro control por medio de la interpolacion utilizamos {{nombreIdentificador.className}}
+3) agregamos a nuestro control el atributo required para especificar es requerido
+4) por ultimo en vez de utulizar las validaciones por clases la vamos a utilizar por medio de ngModel de la siguiente forma #nombreIdentificador="ngModel", lo que nos perimitira usar la interporlacion 
+{{nombreIdentificador.propiedades (untouched/ touched/ pristine/ dirty/ valid/ invalid)}}.

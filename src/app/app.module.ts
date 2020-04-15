@@ -9,6 +9,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { BindingDataWithNgformComponent } from './binding-data-with-ngform/binding-data-with-ngform.component';
 import { BindingDataToModelComponent } from './binding-data-to-model/binding-data-to-model.component';
 import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.component';
+import { TrackingStateValidityComponent } from './tracking-state-validity/tracking-state-validity.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.com
     NotFoundComponent,
     BindingDataWithNgformComponent,
     BindingDataToModelComponent,
-    AddingFormHtmlComponent
+    AddingFormHtmlComponent,
+    TrackingStateValidityComponent
   ],
   imports: [
     BrowserModule,

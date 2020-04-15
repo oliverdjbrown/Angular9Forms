@@ -1,3 +1,4 @@
+import { TrackingStateValidityComponent } from './tracking-state-validity/tracking-state-validity.component';
 import { BindingDataToModelComponent } from './binding-data-to-model/binding-data-to-model.component';
 import { BindingDataWithNgformComponent } from './binding-data-with-ngform/binding-data-with-ngform.component';
 import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'adding-form-html', component: AddingFormHtmlComponent},
   { path: 'binding-data-with-ngform', component: BindingDataWithNgformComponent},
   { path: 'binding-data-to-model', component: BindingDataToModelComponent},
+  { path: 'tracking-state-validity', component: TrackingStateValidityComponent},
   { path: '**', component: NotFoundComponent}
 ];
 
