@@ -1,5 +1,4 @@
 # Angular9Forms
-
 Este es un proyecto de Angular 9 construido unicamente para probar las caracteristicas que destacan este framework y tener un recordatorio a mano de todo lo que se puede hacer con el.
 
 ## Angular Forms Concept
@@ -30,3 +29,13 @@ When we work with data binding in template driven forms Angular provides three d
 3) en cada control que deseo seguir debo agregar un "ngModel" para que angular rastree los cambios.
 4) por ultimo debo asignar un identificador a cada control utilizando name="nombreControl". 
 5) en caso de necesitar agrupar la informacion se puede utilizar la directiva "ngModelGroup" lo que nos permite visualizar un grupo de datos como un json.
+
+## Binding Data to a Model
+Cuando tengamos el formulario de IU listo en Angular, debemos enviar los datos al servidor para futuras operaciones. Simplemente, podemos enviarlo para guardar los detalles. Pero antes de enviar los datos al servidor, primero debemos vincular los datos al modelo.
+
+1) abrir la consola y generar una clase (ng generate class User).
+2) dentro del archivo generado declaramos los parametros dentro de un constructor con su tipo de dato.
+3) dentro del archivo Ts de nuestro componente importamos nuestro modelo en la cabecera.
+4) declaramos la propiedad userModel y le pasamos los argumentos.
+5) para poder vincular las propiedades del modelo a la directiva ngModel se utiliza [ngModel]="" pero esto solo es de una via y no podra actualizar la vista.
+6) para poder hacer uso de la directiva ngModel de dos vias utilizamos [(ngModel)]="".

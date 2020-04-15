@@ -6,12 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TemplateDrivenFormsComponent } from './template-driven-forms/template-driven-forms.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { BindingDataWithNgformComponent } from './binding-data-with-ngform/binding-data-with-ngform.component';
+import { BindingDataToModelComponent } from './binding-data-to-model/binding-data-to-model.component';
+import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TemplateDrivenFormsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    BindingDataWithNgformComponent,
+    BindingDataToModelComponent,
+    AddingFormHtmlComponent
   ],
   imports: [
     BrowserModule,

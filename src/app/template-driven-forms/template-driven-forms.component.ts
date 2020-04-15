@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplateDrivenFormsComponent implements OnInit {
 
-topics = ['Angular', 'React', 'Vue'];
-
+  topics = ['Angular', 'React', 'Vue'];
   constructor() { }
 
   ngOnInit(): void {
