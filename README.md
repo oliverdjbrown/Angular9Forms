@@ -74,3 +74,9 @@ en esta ocacion validaremos si el valor esta por defecto o si ha sido selecciona
 3) por medio de event binding (blur) / (change) estaremos esperando los cambios del control para validar la seleccion.
 4) por medio del metodo validateTopic asignaremos el valor true or false a nuestra propiedad "topicHasError".
 5) por ultimo la clase de nuestro select control con la que validamos sera igual a nuestro propiedad boleana asi como la clase de nuestra etiqueta small.
+
+## Form Validation
+Estas validaciones se utilizan de forma general para tener un control de la informacion antes de enviarla al servidor.
+
+1) para esta practica utilizaremos la ayuda del #templateReferece utilizando property binding dentro del boton submit.
+2) con la propiedad disabled especificamos que cuando no se cumpla las condiciones el boton se desactive.

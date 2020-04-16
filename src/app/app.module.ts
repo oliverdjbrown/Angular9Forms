@@ -13,6 +13,7 @@ import { TrackingStateValidityComponent } from './tracking-state-validity/tracki
 import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/validation-visual-feedback.component';
 import { DisplayingErrorMessagesComponent } from './displaying-error-messages/displaying-error-messages.component';
 import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
+import { FormValidationComponent } from './form-validation/form-validation.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SelectControlValidationComponent } from './select-control-validation/se
     TrackingStateValidityComponent,
     ValidationVisualFeedbackComponent,
     DisplayingErrorMessagesComponent,
-    SelectControlValidationComponent
+    SelectControlValidationComponent,
+    FormValidationComponent
   ],
   imports: [
     BrowserModule,

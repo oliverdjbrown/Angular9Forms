@@ -1,3 +1,4 @@
+import { FormValidationComponent } from './form-validation/form-validation.component';
 import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
 import { DisplayingErrorMessagesComponent } from './displaying-error-messages/displaying-error-messages.component';
 import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/validation-visual-feedback.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'validation-visual-feedback', component: ValidationVisualFeedbackComponent},
   { path: 'displaying-error-messages', component: DisplayingErrorMessagesComponent},
   { path: 'select-control-validation', component: SelectControlValidationComponent},
+  { path: 'form-validation', component: FormValidationComponent},
   { path: '**', component: NotFoundComponent}
 ];
 
