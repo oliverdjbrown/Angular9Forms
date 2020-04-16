@@ -10,6 +10,7 @@ import { BindingDataWithNgformComponent } from './binding-data-with-ngform/bindi
 import { BindingDataToModelComponent } from './binding-data-to-model/binding-data-to-model.component';
 import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.component';
 import { TrackingStateValidityComponent } from './tracking-state-validity/tracking-state-validity.component';
+import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/validation-visual-feedback.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TrackingStateValidityComponent } from './tracking-state-validity/tracki
     BindingDataWithNgformComponent,
     BindingDataToModelComponent,
     AddingFormHtmlComponent,
-    TrackingStateValidityComponent
+    TrackingStateValidityComponent,
+    ValidationVisualFeedbackComponent
   ],
   imports: [
     BrowserModule,

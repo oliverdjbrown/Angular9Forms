@@ -1,3 +1,4 @@
+import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/validation-visual-feedback.component';
 import { TrackingStateValidityComponent } from './tracking-state-validity/tracking-state-validity.component';
 import { BindingDataToModelComponent } from './binding-data-to-model/binding-data-to-model.component';
 import { BindingDataWithNgformComponent } from './binding-data-with-ngform/binding-data-with-ngform.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'binding-data-with-ngform', component: BindingDataWithNgformComponent},
   { path: 'binding-data-to-model', component: BindingDataToModelComponent},
   { path: 'tracking-state-validity', component: TrackingStateValidityComponent},
+  { path: 'validation-visual-feedback', component: ValidationVisualFeedbackComponent},
   { path: '**', component: NotFoundComponent}
 ];
 

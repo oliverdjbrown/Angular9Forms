@@ -52,3 +52,10 @@ Angular rastrea el estado del control de formulario y aplica la clase necesaria 
 3) agregamos a nuestro control el atributo required para especificar es requerido
 4) por ultimo en vez de utulizar las validaciones por clases la vamos a utilizar por medio de ngModel de la siguiente forma #nombreIdentificador="ngModel", lo que nos perimitira usar la interporlacion 
 {{nombreIdentificador.propiedades (untouched/ touched/ pristine/ dirty/ valid/ invalid)}}.
+
+## Validation with Visual Feedback
+para una buena experiencia de usuario es indicar de forma visual si el formulario es invalido.
+
+1) para poder hacer la practica primero asignamos un identificador a nuestro elemento HTML usando #nombreIdentificador
+2) este identificador sera igual a la directiva ngModel, #identificador="ngModel".
+3) por ultimo utilizando los corchetes y luego la clase para validar [class.is-invalid]="name.invalid && name.touched" podemos saber si el control cumple o no los requisitos de no cumplirlos el control se pondra rojo.
