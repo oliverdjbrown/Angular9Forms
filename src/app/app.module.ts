@@ -12,6 +12,7 @@ import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.com
 import { TrackingStateValidityComponent } from './tracking-state-validity/tracking-state-validity.component';
 import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/validation-visual-feedback.component';
 import { DisplayingErrorMessagesComponent } from './displaying-error-messages/displaying-error-messages.component';
+import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DisplayingErrorMessagesComponent } from './displaying-error-messages/di
     AddingFormHtmlComponent,
     TrackingStateValidityComponent,
     ValidationVisualFeedbackComponent,
-    DisplayingErrorMessagesComponent
+    DisplayingErrorMessagesComponent,
+    SelectControlValidationComponent
   ],
   imports: [
     BrowserModule,

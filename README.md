@@ -65,3 +65,12 @@ para mejorar la experiencia de usuario en esta practica mostraremos mensajes que
 
 1) para validar por medio de clases utilizando la etiqueta small escribiremos el mensaje a mostrar, dentro de la primera etiqueta vamos a utilizar una clase para dar color al mensaje y utilizando classbinding especificaremos la validaciones.
 2) para validar por medio de la directiva ngModel utilizamos una etiqueta div bajo nuestro control la cual por medio de la directiva *ngIf se especificare las condiciones con a cual mostrara multiples mensajes tambien especificadas las condiciones con la cual uno u otro aparecera.
+
+## Select control validation
+en esta ocacion validaremos si el valor esta por defecto o si ha sido seleccionada una de las opciones del contro.
+
+1) para esto la etiqueta small escribiremos el mensaje a mostrar, dentro de la primera etiqueta vamos a utilizar una clase para dar color al mensaje y utilizando classbinding especificaremos la validaciones.
+2) la propiedad value de nuestro select control sera igual a default.
+3) por medio de event binding (blur) / (change) estaremos esperando los cambios del control para validar la seleccion.
+4) por medio del metodo validateTopic asignaremos el valor true or false a nuestra propiedad "topicHasError".
+5) por ultimo la clase de nuestro select control con la que validamos sera igual a nuestro propiedad boleana asi como la clase de nuestra etiqueta small.
