@@ -59,3 +59,9 @@ para una buena experiencia de usuario es indicar de forma visual si el formulari
 1) para poder hacer la practica primero asignamos un identificador a nuestro elemento HTML usando #nombreIdentificador
 2) este identificador sera igual a la directiva ngModel, #identificador="ngModel".
 3) por ultimo utilizando los corchetes y luego la clase para validar [class.is-invalid]="name.invalid && name.touched" podemos saber si el control cumple o no los requisitos de no cumplirlos el control se pondra rojo.
+
+## Displaying Error Messages
+para mejorar la experiencia de usuario en esta practica mostraremos mensajes que se aplicaran cuando los controles no se cumplan para esto hay dos forma de validacion, por medio de clases y por medio de la directiva ngModel.
+
+1) para validar por medio de clases utilizando la etiqueta small escribiremos el mensaje a mostrar, dentro de la primera etiqueta vamos a utilizar una clase para dar color al mensaje y utilizando classbinding especificaremos la validaciones.
+2) para validar por medio de la directiva ngModel utilizamos una etiqueta div bajo nuestro control la cual por medio de la directiva *ngIf se especificare las condiciones con a cual mostrara multiples mensajes tambien especificadas las condiciones con la cual uno u otro aparecera.

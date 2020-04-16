@@ -2,12 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
 
 @Component({
-  selector: 'app-validation-visual-feedback',
-  templateUrl: './validation-visual-feedback.component.html',
-  styleUrls: ['./validation-visual-feedback.component.css']
+  selector: 'app-displaying-error-messages',
+  templateUrl: './displaying-error-messages.component.html',
+  styleUrls: ['./displaying-error-messages.component.css']
 })
-export class ValidationVisualFeedbackComponent implements OnInit {
-
+export class DisplayingErrorMessagesComponent implements OnInit {
 
   topics = ['Angular', 'React', 'Vue'];
 

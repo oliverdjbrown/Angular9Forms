@@ -11,6 +11,7 @@ import { BindingDataToModelComponent } from './binding-data-to-model/binding-dat
 import { AddingFormHtmlComponent } from './adding-form-html/adding-form-html.component';
 import { TrackingStateValidityComponent } from './tracking-state-validity/tracking-state-validity.component';
 import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/validation-visual-feedback.component';
+import { DisplayingErrorMessagesComponent } from './displaying-error-messages/displaying-error-messages.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/
     BindingDataToModelComponent,
     AddingFormHtmlComponent,
     TrackingStateValidityComponent,
-    ValidationVisualFeedbackComponent
+    ValidationVisualFeedbackComponent,
+    DisplayingErrorMessagesComponent
   ],
   imports: [
     BrowserModule,
