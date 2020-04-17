@@ -16,6 +16,7 @@ import { DisplayingErrorMessagesComponent } from './displaying-error-messages/di
 import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
 import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
+import { ExpressServerReceiveFormDataComponent } from './express-server-receive-form-data/express-server-receive-form-data.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { SubmittingFormDataComponent } from './submitting-form-data/submitting-f
     DisplayingErrorMessagesComponent,
     SelectControlValidationComponent,
     FormValidationComponent,
-    SubmittingFormDataComponent
+    SubmittingFormDataComponent,
+    ExpressServerReceiveFormDataComponent
   ],
   imports: [
     BrowserModule,

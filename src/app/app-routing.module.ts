@@ -1,3 +1,4 @@
+import { ExpressServerReceiveFormDataComponent } from './express-server-receive-form-data/express-server-receive-form-data.component';
 import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
 import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'select-control-validation', component: SelectControlValidationComponent},
   { path: 'form-validation', component: FormValidationComponent},
   { path: 'submitting-form-data', component: SubmittingFormDataComponent},
+  { path: 'express-server-receive-form-data', component: ExpressServerReceiveFormDataComponent},
   { path: '**', component: NotFoundComponent}
 ];
 

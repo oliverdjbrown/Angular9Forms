@@ -92,6 +92,12 @@ Estas validaciones se utilizan de forma general para tener un control de la info
 7) dentro del componente Ts crearemos la variable "url" la cual estara en blanco, el metodo "enroll" el cual tendra como parametro "User" y realizamos la importacion.
 8) luego dentro de nuestro componente .TS vamos a importar nuestro servicio e injectarlo en nuestro constructor.
 9) en nuestro metodo onSubmit llamaremos el metodo de nuestro servicio y le pasaremos como parametro los datos de nuestro formualario, y mostraremos por consola tanto si funciona como si hay errores.
-10) 
 
+## Express Server to Receive Form Data
+En esta practica crearemos un servidor utilizando express js con el cual por medio de la configuracion de un endpoint pasaremos nuestro objeto de angular a nuestro servidor expresss.
 
+1) condiguraremos el servidor express.
+2) dentro de nuestro servicio, actualizaremos el valor de la variable url a nuestro endpoint.
+3) por medio de la consola iniciaremos nuestro servidor express y luego en nuestro frontend enviaremos la data de nuestro formulario.
+4) en nuetros componente .ts creamos la propiedad "submitted" que sera igual a falso, en nuestro metodo onSubmit nuestra propiedad sera verdadera.
+5) en nuestra vista dentro de la etiqueta form por medio de la directiva ngIf creamos la condicion de que el formulario solo se mostrara si no ha sido enviado.
