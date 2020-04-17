@@ -80,3 +80,18 @@ Estas validaciones se utilizan de forma general para tener un control de la info
 
 1) para esta practica utilizaremos la ayuda del #templateReferece utilizando property binding dentro del boton submit.
 2) con la propiedad disabled especificamos que cuando no se cumpla las condiciones el boton se desactive.
+
+## Submitting form data
+
+1) agregar al formulario el atributo "novalidate".
+2) asignaremos un metodo submit en el formulario llamado "onSubmit" el cual estara en el documento TS.
+3) dentro del medtodo vamos a establecer que console.log sera igual a userModel y al hacer clic en el boton podemos ver la informacion dentro de la consola.
+4) crearemos un servicio llamado "enrollment" para enviar la data a aun servidor.
+5) dentro del servicio importamos httpClient e injectamos el modulo.
+6) tambien debemos importarlos dentro del app.module.ts y luego agregarlo al arreglo de imports.
+7) dentro del componente Ts crearemos la variable "url" la cual estara en blanco, el metodo "enroll" el cual tendra como parametro "User" y realizamos la importacion.
+8) luego dentro de nuestro componente .TS vamos a importar nuestro servicio e injectarlo en nuestro constructor.
+9) en nuestro metodo onSubmit llamaremos el metodo de nuestro servicio y le pasaremos como parametro los datos de nuestro formualario, y mostraremos por consola tanto si funciona como si hay errores.
+10) 
+
+

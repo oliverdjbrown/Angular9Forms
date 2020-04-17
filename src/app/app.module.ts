@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,8 @@ import { ValidationVisualFeedbackComponent } from './validation-visual-feedback/
 import { DisplayingErrorMessagesComponent } from './displaying-error-messages/displaying-error-messages.component';
 import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
+import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
+
 
 @NgModule({
   declarations: [
@@ -27,12 +30,14 @@ import { FormValidationComponent } from './form-validation/form-validation.compo
     ValidationVisualFeedbackComponent,
     DisplayingErrorMessagesComponent,
     SelectControlValidationComponent,
-    FormValidationComponent
+    FormValidationComponent,
+    SubmittingFormDataComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

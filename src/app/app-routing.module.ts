@@ -1,3 +1,4 @@
+import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
 import { SelectControlValidationComponent } from './select-control-validation/select-control-validation.component';
 import { DisplayingErrorMessagesComponent } from './displaying-error-messages/displaying-error-messages.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'displaying-error-messages', component: DisplayingErrorMessagesComponent},
   { path: 'select-control-validation', component: SelectControlValidationComponent},
   { path: 'form-validation', component: FormValidationComponent},
+  { path: 'submitting-form-data', component: SubmittingFormDataComponent},
   { path: '**', component: NotFoundComponent}
 ];
 
