@@ -1,3 +1,4 @@
+import { ErrorHandlingComponent } from './error-handling/error-handling.component';
 import { ExpressServerReceiveFormDataComponent } from './express-server-receive-form-data/express-server-receive-form-data.component';
 import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'form-validation', component: FormValidationComponent},
   { path: 'submitting-form-data', component: SubmittingFormDataComponent},
   { path: 'express-server-receive-form-data', component: ExpressServerReceiveFormDataComponent},
+  { path: 'error-handling', component: ErrorHandlingComponent},
   { path: '**', component: NotFoundComponent}
 ];
 

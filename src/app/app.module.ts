@@ -17,6 +17,7 @@ import { SelectControlValidationComponent } from './select-control-validation/se
 import { FormValidationComponent } from './form-validation/form-validation.component';
 import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
 import { ExpressServerReceiveFormDataComponent } from './express-server-receive-form-data/express-server-receive-form-data.component';
+import { ErrorHandlingComponent } from './error-handling/error-handling.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ExpressServerReceiveFormDataComponent } from './express-server-receive-
     SelectControlValidationComponent,
     FormValidationComponent,
     SubmittingFormDataComponent,
-    ExpressServerReceiveFormDataComponent
+    ExpressServerReceiveFormDataComponent,
+    ErrorHandlingComponent
   ],
   imports: [
     BrowserModule,

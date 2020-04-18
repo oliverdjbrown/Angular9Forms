@@ -101,3 +101,13 @@ En esta practica crearemos un servidor utilizando express js con el cual por med
 3) por medio de la consola iniciaremos nuestro servidor express y luego en nuestro frontend enviaremos la data de nuestro formulario.
 4) en nuetros componente .ts creamos la propiedad "submitted" que sera igual a falso, en nuestro metodo onSubmit nuestra propiedad sera verdadera.
 5) en nuestra vista dentro de la etiqueta form por medio de la directiva ngIf creamos la condicion de que el formulario solo se mostrara si no ha sido enviado.
+
+##  Error Handling
+Cuando se envia la informacion puede haber un poblema y el formulario tenga un error vamos a aprender como manejarlo
+
+1) para esto vamos a importar en nuestro componente Ts "catchError" y "throwError".
+2) de igual manera vamos a importar en nuestro servicio "catchError" y "throwError".
+3) crearemos un metodo en nuestro servicio el cual mananejara los errores que se produzcan en las respuestas http para asi poder mostrarlos.
+4) dentro de nuestro metodo enroll por medio de pipe capturaremos el error que pueda tener nuestra peticion post y la pasaremos a nuestro errorHandler.
+5)dentro de nuestro componente .TS vamos a crear una propiedad que nos servira para mostrar en la vista los errores que se produzcan.
+6) cambiamos la funcionalidad de nuestro metodo para que la propiedad errorMsg sea igual al error y lo mostramos en la vista.
