@@ -111,3 +111,8 @@ Cuando se envia la informacion puede haber un poblema y el formulario tenga un e
 4) dentro de nuestro metodo enroll por medio de pipe capturaremos el error que pueda tener nuestra peticion post y la pasaremos a nuestro errorHandler.
 5)dentro de nuestro componente .TS vamos a crear una propiedad que nos servira para mostrar en la vista los errores que se produzcan.
 6) cambiamos la funcionalidad de nuestro metodo para que la propiedad errorMsg sea igual al error y lo mostramos en la vista.
+
+## TDF and Reactive (Model Driven) Approach
+
+1) en el evento onSubmit de nuetro documento html le pasaremos el parametro userForm.
+2) dentro del componente .ts pasaremos el mismo parametro userForm a nuestro metodo.

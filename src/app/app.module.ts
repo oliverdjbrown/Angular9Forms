@@ -18,6 +18,7 @@ import { FormValidationComponent } from './form-validation/form-validation.compo
 import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
 import { ExpressServerReceiveFormDataComponent } from './express-server-receive-form-data/express-server-receive-form-data.component';
 import { ErrorHandlingComponent } from './error-handling/error-handling.component';
+import { TdfReactiveModelDrivenComponent } from './tdf-reactive-model-driven/tdf-reactive-model-driven.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ErrorHandlingComponent } from './error-handling/error-handling.componen
     FormValidationComponent,
     SubmittingFormDataComponent,
     ExpressServerReceiveFormDataComponent,
-    ErrorHandlingComponent
+    ErrorHandlingComponent,
+    TdfReactiveModelDrivenComponent
   ],
   imports: [
     BrowserModule,

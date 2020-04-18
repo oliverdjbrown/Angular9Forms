@@ -1,3 +1,4 @@
+import { TdfReactiveModelDrivenComponent } from './tdf-reactive-model-driven/tdf-reactive-model-driven.component';
 import { ErrorHandlingComponent } from './error-handling/error-handling.component';
 import { ExpressServerReceiveFormDataComponent } from './express-server-receive-form-data/express-server-receive-form-data.component';
 import { SubmittingFormDataComponent } from './submitting-form-data/submitting-form-data.component';
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'submitting-form-data', component: SubmittingFormDataComponent},
   { path: 'express-server-receive-form-data', component: ExpressServerReceiveFormDataComponent},
   { path: 'error-handling', component: ErrorHandlingComponent},
+  { path: 'tdf-reactive-model-driven', component: TdfReactiveModelDrivenComponent},
   { path: '**', component: NotFoundComponent}
 ];
 
