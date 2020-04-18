@@ -1,4 +1,4 @@
-# Angular9Forms
+# Angular 9 Template Driven Forms
 Este es un proyecto de Angular 9 construido unicamente para probar las caracteristicas que destacan este framework y tener un recordatorio a mano de todo lo que se puede hacer con el.
 
 ## Angular Forms Concept
@@ -6,9 +6,6 @@ Los formularios en Angular se basan en los formularios HTML estándar para ayuda
 
 ## Template-driven Forms
 Los formularios basados en plantillas son el enfoque en Angular para crear formularios donde la mayor parte del código está escrito en html.
-
-## Reactive Forms
-Los formularios reactivos proporcionan un enfoque basado en modelos para manejar entradas de formulario cuyos valores cambian con el tiempo. Esta guía le muestra cómo crear y actualizar un control de formulario básico, avanzar al uso de controles múltiples en un grupo, validar valores de formulario y crear formularios dinámicos donde puede agregar o quitar controles en tiempo de ejecución.
 
 ## Adding Form HTML
 En esta practica probamos controles HTML que agregamos utilizando clases de bootstrap.
